@@ -138,7 +138,7 @@ available_modes() {
     case "$option" in
     y | yes)
       while true; do
-        read -p "All options (y) or specific (n) or best (b) -> based on highest HZ? " option2
+        read -p "All options (y) or specific (n) or best (b) -> based on highest HZ ? " option2
         option2=$(echo "$option2" | tr '[:upper:]' '[:lower:]')
 
         case "$option2" in
