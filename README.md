@@ -1,7 +1,7 @@
 # Hyprland Monitor Helper Script
 
 
-A small Bash script to make working with external monitors in **Hyprland** to make it less annoying.
+A small Bash script to adjust external monitors in **Hyprland** to make it less annoying.
 
 ## Why I made this
 
