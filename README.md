@@ -140,6 +140,7 @@ Simple and effective.
   * height
 
 * Smarter "best mode" (balance resolution + refresh rate).
+* After select option based on number, the script should ask you if you are satisfied with the current settings.
 
 ---
 
