@@ -268,11 +268,11 @@ choose_hirtz_and_dimensions() {
   fi
   while true; do
     read -p "Enter the Dimensions for the screen, Ex. 1920x1080: " dimensions
-    if [[ -n "$dimensions" ]]; then
+    if [[ -n "$dimensions" && "$dimensions" =~ ^[0-9]+x[0-9]+$ ]]; then
       Dimensions="$dimensions"
       break
     fi
-    echo "Dimensions can't be empty!!"
+    echo "${RED}Dimensions can't be empty or in wrong format !! (width x height)${RESET}"
 
   done
 }
@@ -283,7 +283,7 @@ choose_settings() {
   mirroring
 
   hyprctl keyword monitor HDMI-A-3,"$Dimensions"@"$Hirtz","$value",1
-  echo "Dimension: $Dimensions       Hirtz: $Hirtz       Postion: $value" >"$previous_settings"
+  echo -e "${RED}Dimension:${RESET} $Dimensions       ${RED}Hirtz:${RESET} $Hirtz       ${RED}Postion:${RESET} $value" >"$previous_settings"
 }
 
 available_modes
