@@ -13,8 +13,15 @@
 #
 #
 # More ideas to add :
-#   1) Ask the user to make the Sort based on HZ or width or height
-#   2) Execute based on specific number of the options instead of writing them manually
+#   * Choose monitor dynamically (not hardcoded).
+#   * Select option directly by number instead of typing values.
+#   * Allow user to choose whether to sort by:
+
+#       * Hz
+#       * width
+#       * height
+
+#   * Smarter "best mode" (balance resolution + refresh rate).
 
 value=0 #postion value (right, left, up, down)
 Hirtz=0
