@@ -78,7 +78,7 @@ Postion of laptop screen, right/left/up/down: right
 
 ---
 
-## ⚙️ How "best mode" works
+##  How "best mode" works
 
 The script:
 
@@ -129,17 +129,15 @@ Simple and effective.
 
 ## 💡 Ideas for future improvements
 
-* Choose monitor dynamically (not hardcoded)
-* Select option directly by number instead of typing values
+* Choose monitor dynamically (not hardcoded).
+* Select option directly by number instead of typing values.
 * Allow user to choose whether to sort by:
 
   * Hz
   * width
   * height
 
-to see what fits for him
-
-* Smarter "best mode" (balance resolution + refresh rate)
+* Smarter "best mode" (balance resolution + refresh rate).
 
 ---
 
