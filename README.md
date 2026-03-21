@@ -62,6 +62,8 @@ Quickly position your external monitor relative to your laptop screen:
 * `up`
 * `down`
 
+### 5) Caching previous answers 
+* So you don't have to type dimensions and hirtz again and again or if you mirror your laptop with the monitor, the available modes don't disappear.
 ---
 
 ##  Example usage
