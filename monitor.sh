@@ -272,7 +272,7 @@ choose_hirtz_and_dimensions() {
       Dimensions="$dimensions"
       break
     fi
-    echo "${RED}Dimensions can't be empty or in wrong format !! (width x height)${RESET}"
+    echo -e "${RED}Dimensions can't be empty or in wrong format !! (width x height)${RESET}"
 
   done
 }
